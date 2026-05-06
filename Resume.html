@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #dbeafe, #f0f9ff);
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(to right, #2563eb, #1e40af);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .section {
+            padding: 25px 40px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+            font-size: 26px;
+            border-left: 5px solid #2563eb;
+            padding-left: 10px;
+        }
+
+        .section p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .section ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .skills span:hover {
+            background: #1e40af;
+            transform: scale(1.05);
+        }
+
+        .project-box {
+            background: #eff6ff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid #2563eb;
+            border-radius: 8px;
+        }
+
+        .project-box h3 {
+            color: #1e3a8a;
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            background: #1e3a8a;
+            color: white;
+            padding: 15px;
+            font-size: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header p {
+                font-size: 15px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .section h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Shubhangi Shankar Pattewar</h1>
+        <p>Email: spattewar46@email.com | Phone: 9284532640</p>
+        <p>Location: Kasba Bawda, Kolhapur</p>
+    </div>
+
+    <!-- Career Objective -->
+    <div class="section">
+        <h2>Career Objective</h2>
+        <p>
+            Motivated and dedicated engineering student seeking opportunities to apply technical skills
+            in software development, web design, and problem-solving while continuously learning and
+            contributing to innovative projects.
+        </p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Technology</strong> – D. Y. Patil College of Engineering and Technology</li>
+            <li><strong>Higher Secondary Education</strong> – Late Devidas Pawar Junior College</li>
+            <li><strong>Secondary Education</strong> – Completed with strong academic performance from Nalanda English Medium School</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>Bootstrap</span>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <h2>Projects</h2>
+
+        <div class="project-box">
+            <h3>AI Interview Preparation Coach</h3>
+            <p>
+                Developed a smart web-based platform to help students prepare for interviews
+                with resume building, mock interview practice, and career guidance.
+            </p>
+        </div>
+
+        <div class="project-box">
+            <h3>Fruit Shop Management System</h3>
+            <p>
+                Built a Java application for inventory management, billing,
+                and customer order processing for retail fruit businesses.
+            </p>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+        <h2>Experience</h2>
+        <p>
+            <strong>Fresher</strong> – Passionate about gaining industry experience and
+            applying academic knowledge to real-world software and technical projects.
+        </p>
+    </div>
+
+    <!-- Strengths -->
+    <div class="section">
+        <h2>Strengths</h2>
+        <ul>
+            <li>Quick learner and adaptable</li>
+            <li>Strong communication skills</li>
+            <li>Problem-solving ability</li>
+            <li>Team collaboration</li>
+        </ul>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="section">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Reading technical and motivational books</li>
+            <li>Coding and software development</li>
+            <li>Traveling and exploring new places</li>
+            <li>Creative design and innovation</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 Shubhangi Pattewar | Resume Webpage</p>
+    </div>
+
+</div>
+
+</body>
+</html>
+
